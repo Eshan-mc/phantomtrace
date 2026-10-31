@@ -4,7 +4,7 @@ import networkx as nx
 why da
 def build_attack_graph(events):
     graph = nx.DiGraph()
-
+this is my issue
     # Add each event as a node.
     for event in events:
         event_id = event.get("event_id")
